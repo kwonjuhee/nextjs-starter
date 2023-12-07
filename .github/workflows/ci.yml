@@ -36,7 +36,11 @@ jobs:
         key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
         restore-keys: |
           ${{ runner.os }}-node-
-
+    
+    - name: Display node modules list
+      if: steps.npm-cache.outputs.cache-hit != 'true'
+      run: npm list
+      
     - name: Install dependencies
       if: steps.npm-cache.outputs.cache-hit != 'true'
       run: npm ci
