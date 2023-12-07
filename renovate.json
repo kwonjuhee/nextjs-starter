@@ -8,5 +8,6 @@
   "packageRules": {
     "matchUpdateTypes": ["minor", "patch", "digest"],
     "automerge": true,
-  }
+  },
+  "semanticCommits": "enabled"
 }
