@@ -38,7 +38,6 @@ jobs:
           ${{ runner.os }}-node-
     
     - name: Display node modules list
-      if: steps.npm-cache.outputs.cache-hit != 'true'
       run: npm list
       
     - name: Install dependencies
