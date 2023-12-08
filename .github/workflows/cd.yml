@@ -2,7 +2,7 @@ name: cd
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "chore/cd" ]
 
 jobs:
   storybook:
@@ -36,7 +36,7 @@ jobs:
       run: npm ci
 
     - name: Run build
-      if: github.ref == 'refs/heads/main'
+      # if: github.ref == 'refs/heads/main'
       run: npm run build-storybook
 
     - name: Deploy Storybook
