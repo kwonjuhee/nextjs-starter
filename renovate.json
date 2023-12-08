@@ -4,10 +4,10 @@
     "config:base"
   ],
   "prCreation": "not-pending",
-  "minimumReleaseAge": 3,
-  "packageRules": {
+  "minimumReleaseAge": "3 days",
+  "semanticCommits": "enabled",
+  "packageRules": [{
     "matchUpdateTypes": ["minor", "patch", "digest"],
     "automerge": true,
-  },
-  "semanticCommits": "enabled"
+  }]
 }
