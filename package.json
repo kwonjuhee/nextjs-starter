@@ -17,7 +17,7 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.0.1",
     "eslint-plugin-simple-import-sort": "^10.0.0",
-    "next": "14.2.23",
+    "next": "14.2.33",
     "prettier": "^3.1.0",
     "react": "^18",
     "react-dom": "^18"
@@ -33,7 +33,7 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.2.23",
+    "eslint-config-next": "14.2.33",
     "eslint-plugin-storybook": "^0.6.15",
     "husky": "^8.0.3",
     "lint-staged": "^15.2.0",
