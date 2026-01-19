@@ -35,7 +35,7 @@
     "eslint": "^8",
     "eslint-config-next": "14.2.33",
     "eslint-plugin-storybook": "^0.6.15",
-    "husky": "^8.0.3",
+    "husky": "^9.0.0",
     "lint-staged": "^15.2.0",
     "storybook": "^8.0.0",
     "typescript": "^5"
